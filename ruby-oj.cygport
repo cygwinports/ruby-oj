@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-oj"
+VERSION=2.0.3
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby fast JSON extension"
+DESCRIPTION="The fastest JSON parser and object serializer for Ruby."
