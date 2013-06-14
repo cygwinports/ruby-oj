@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-oj"
-VERSION=2.0.3
+VERSION=2.0.14
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby fast JSON extension"
