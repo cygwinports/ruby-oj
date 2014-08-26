@@ -1,8 +1,12 @@
 inherit rubygem
 
 NAME="ruby-oj"
-VERSION=2.1.4
+VERSION=2.10.2
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby fast JSON extension"
 DESCRIPTION="The fastest JSON parser and object serializer for Ruby."
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_oj_CONTENTS="${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_oj_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
